@@ -6,7 +6,8 @@ IRrecv irrecv(RECV_PIN);                              //Create an instance for i
 decode_results results;                                //Create an instance to store the collected data in
 
 int BLED = 9;                                         //Assign the red LED to pin 8
-int GLED = 10;                                         //Assign the blue LED to pin 9
+int GLED = 10;   
+int RLED = 11;                                      //Assign the blue LED to pin 9
 
 void setup() {
   // put your setup code here, to run once:
@@ -54,15 +55,22 @@ void loop() {
       }
       irrecv.resume();
 
-      // TOGGLE OFF
 
-      if (results.value == 0xFF42BD){ // button 7: blue off
-        analogWrite(BLED, 0);
+      //    RED
+
+
+      if (results.value == 0xFF42BD){ // button 7: red low
+        analogWrite(RLED, 20);
       }
       irrecv.resume();
 
-      if (results.value == 0xFF4AB5){ // button 8: green off
-        analogWrite(GLED, 0);
+      if (results.value == 0xFF4AB5){ // button 8: red mid
+        analogWrite(RLED, 127);
+      }
+     irrecv.resume();
+
+     if (results.value == 0xFF52AD){ // button 9: red high
+        analogWrite(RLED, 230);
       }
      irrecv.resume();
 
