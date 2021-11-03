@@ -7,7 +7,7 @@ decode_results results;                                //Create an instance to s
 
 int BLED = 9;                                         //Assign the red LED to pin 8
 int GLED = 10;   
-int RLED = 11;                                      //Assign the blue LED to pin 11
+int RLED = 6;                                      //Assign the blue LED to pin 11
 
 void setup() {
   // put your setup code here, to run once:
