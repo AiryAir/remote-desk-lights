@@ -12,8 +12,9 @@ int RLED = 11;                                      //Assign the blue LED to pin
 void setup() {
   // put your setup code here, to run once:
   irrecv.enableIRIn();                          //start the reciever
-        pinMode(BLED, OUTPUT);                        //set the pin 8 to output
-        pinMode(GLED, OUTPUT);                        //set the pin 12 to output
+        pinMode(BLED, OUTPUT);                        //set the pin 9 to output
+        pinMode(GLED, OUTPUT);                        //set the pin 10 to output
+        pinMode(RLED, OUTPUT);                        //set the pin 11 to output
 }
 
 void loop() {
@@ -75,9 +76,10 @@ void loop() {
      irrecv.resume();
 
      
-      if (results.value == 0xFF6897){ // button 0: turn of all
+      if (results.value == 0xFF6897){ // button 0: turn off all
         analogWrite(BLED, 0);
         analogWrite(GLED, 0);
+        analogWrite(RLED, 0);
       }
    irrecv.resume(); 
    }
