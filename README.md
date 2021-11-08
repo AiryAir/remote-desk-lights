@@ -4,4 +4,15 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ## How to make your own
 
-### Parts
+### Parts:
+1) Arduino Uno
+2) Breadboard
+3) Red, Green, Blue LEDs
+4) IR Remote
+5) IR Reciever
+6) Resistor
+7) Capacitor
+8) Jumper Cables
+
+### Circuit Diagram
+
