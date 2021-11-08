@@ -55,3 +55,4 @@ If you used the exact same code as mine then here's some quick shortcuts on the 
 8 --> Red LEDs on at medium brightness
 9 --> Red LEDs on at high brightness
 
+### Potential Problems
