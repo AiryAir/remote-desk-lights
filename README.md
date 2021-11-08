@@ -61,6 +61,11 @@ If you used the exact same code as mine then here's some quick shortcuts on the 
 
 9 -> Red LEDs on at high brightness
 
+Peel off the double sided tape on the back of your breadboard and slap in on any spot that is comfortable for you. You might wanna tape up the Arduino too. Its a little bulky and looks not-so-clean but if placed well, it will light your desk up really nicely and also doesnt show. 
+Makes life simple and a little aethetic.
+
+Also, dont forget to try all color combinations you can make with RGB LEDs! Try them all out for yourself. They look gooooooooooood.
+
 ### Potential Problems
 
 #### 1) IR Reciever isnt picking anything up
