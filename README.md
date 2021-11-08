@@ -61,7 +61,7 @@ If you used the exact same code as mine then here's some quick shortcuts on the 
 
 ### Potential Problems
 
-1) IR Reciever isnt picking anything up
+#### 1) IR Reciever isnt picking anything up
 
 Sometimes even when you have tried all troubleshooting tips but the IR Receiver still isnt working just
 means one thing, ie, IR Receiver is hooked up the wrong way. Go ahead and google "IR Receiver Pins". It might help
@@ -71,7 +71,7 @@ whatever is needed.
 PS: Make sure the IR Receiver and Remote work in the same band of frequencies. Google the part numbers or try using
 Google Lens to find the part number if you dont have it.
 
-2) Code is right, circuit is fine but the circuit still isnt working.
+#### 2) Code is right, circuit is fine but the circuit still isnt working.
 
 Solution:
 
@@ -91,7 +91,7 @@ pressing anything or even when you are pressing something but more than one valu
 I suggest working in an isolated area or even turning off appliances like microwaves and bluetooth earphones around you.
 
 
-3) IR Receiver randomly stops working.
+#### 3) IR Receiver randomly stops working.
 
 Solution:
 
