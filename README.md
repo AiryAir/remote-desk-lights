@@ -22,7 +22,7 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ### Circuit Diagram
 
-![circuit diagram](https://github.com/AiryAir/remote-desk-lights/blob/main/images/remote_ir_circuit.png)
+![circuit diagram](https://github.com/AiryAir/remote-desk-lights/blob/main/images/circuit.png)
 
 The resistor and capacitor are important here since it will stabilise the input voltage for the IR Reciever.
 My IR Reciever stopped working randomly after a couple button presses on the remote. A user on stackoverflow with a similar project
