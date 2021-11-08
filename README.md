@@ -83,6 +83,7 @@ Now, open the Serial Monitor on your Arduino IDE and hit the buttons on your rem
 printed out on your serial monitor. Note down which button press generates what code on your Serial Monitor.
 
 Now copy these values and replace them in the code (if (results.value == "replace here")). 
+
 You might want to add a "0x" in front of each code that you replace.
 For example the code for pressing "1" on my remote is "FF30CF" but in the code I have to write "0xFF30CF".
 
