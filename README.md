@@ -7,7 +7,8 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 ### Contents:
 * [Parts](https://github.com/AiryAir/remote-desk-lights#parts)
 * [Circuit Diagram](https://github.com/AiryAir/remote-desk-lights#circuit-diagram)
-* [Setup and Notes]()
+* [Setup and Notes](https://github.com/AiryAir/remote-desk-lights#setup-and-notes)
+* [Potential Problems](https://github.com/AiryAir/remote-desk-lights#potential-problems)
 
 
 ### Parts:
@@ -82,7 +83,7 @@ Now, open the Serial Monitor on your Arduino IDE and hit the buttons on your rem
 printed out on your serial monitor. Note down which button press generates what code on your Serial Monitor.
 
 Now copy these values and replace them in the code (if (results.value == "replace here")). 
-You might want to add a "Ox" in front of each code that you replace.
+You might want to add a "0x" in front of each code that you replace.
 For example the code for pressing "1" on my remote is "FF30CF" but in the code I have to write "0xFF30CF".
 
 Note that there might be IR interference around you which might cause the serial monitor to print values even when you arent
