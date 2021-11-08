@@ -16,3 +16,4 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ### Circuit Diagram
 
+![circuit diagram](https://github.com/AiryAir/remote-desk-lights/blob/main/images/remote_ir_circuit.png)
