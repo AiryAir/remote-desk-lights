@@ -77,7 +77,8 @@ Solution:
 
 IR Remotes have different "codes" for each of the button presses. They might vary from remote to remote.
 So it might be possible your remote uses different "codes". 
-Keep the circuit as it is but now upload this code to your arduino:
+Keep the circuit as it is but now upload this code to your arduino: 
+https://github.com/AiryAir/IR-Remote-Values/blob/main/remote_val/remote_val.ino
 
 Now, open the Serial Monitor on your Arduino IDE and hit the buttons on your remote. You will see some codes being
 printed out on your serial monitor. Note down which button press generates what code on your Serial Monitor.
