@@ -6,7 +6,8 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ### Contents:
 * [Parts](https://github.com/AiryAir/remote-desk-lights#parts)
-Circuit Diagram: https://github.com/AiryAir/remote-desk-lights#circuit-diagram
+* [Circuit Diagram](https://github.com/AiryAir/remote-desk-lights#circuit-diagram)
+* [Setup and Notes]()
 
 
 ### Parts:
@@ -30,7 +31,7 @@ You might wanna check it out:
 https://arduino.stackexchange.com/a/13259
 
 
-### Final Setup, Notes and Potential Problems you might face
+### Setup and Notes
 
 After you've hooked up the circuit as shown in the diagram, go ahead and download the .ino file in this repository.
 Link: https://github.com/AiryAir/remote-desk-lights/blob/main/remote_desklights/remote_desklights.ino
