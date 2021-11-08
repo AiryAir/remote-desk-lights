@@ -26,6 +26,10 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ### Setup and Notes
 
+IMPORTANT: 
+Setup the IR Remote Library in your Arduino IDE.
+Link: https://www.arduino.cc/reference/en/libraries/irremote/
+
 After you've hooked up the circuit as shown in the diagram, go ahead and download the .ino file in this repository.
 Link: https://github.com/AiryAir/remote-desk-lights/blob/main/remote_desklights/remote_desklights.ino
 
@@ -56,7 +60,37 @@ If you used the exact same code as mine then here's some quick shortcuts on the 
 
 ### Potential Problems
 
-1) IR Receiver randomly stops working.
+1) IR Reciever isnt picking anything up
+
+Sometimes even when you have tried all troubleshooting tips but the IR Receiver still isnt working just
+means one thing, ie, IR Receiver is hooked up the wrong way. Go ahead and google "IR Receiver Pins". It might help
+if you have the part number with you. Just look up what the pins correspond and what you have connected it to and fix 
+whatever is needed.
+
+PS: Make sure the IR Receiver and Remote work in the same band of frequencies. Google the part numbers or try using
+Google Lens to find the part number if you dont have it.
+
+2) Code is right, circuit is fine but the circuit still isnt working.
+
+Solution:
+
+IR Remotes have different "codes" for each of the button presses. They might vary from remote to remote.
+So it might be possible your remote uses different "codes". 
+Keep the circuit as it is but now upload this code to your arduino:
+
+Now, open the Serial Monitor on your Arduino IDE and hit the buttons on your remote. You will see some codes being
+printed out on your serial monitor. Note down which button press generates what code on your Serial Monitor.
+
+Now copy these values and replace them in the code (if (results.value == "replace here")). 
+You might want to add a "Ox" in front of each code that you replace.
+For example the code for pressing "1" on my remote is "FF30CF" but in the code I have to write "0xFF30CF".
+
+Note that there might be IR interference around you which might cause the serial monitor to print values even when you arent
+pressing anything or even when you are pressing something but more than one value is being printed. If there's too much interference,
+I suggest working in an isolated area or even turning off appliances like microwaves and bluetooth earphones around you.
+
+
+3) IR Receiver randomly stops working.
 
 Solution:
 
@@ -65,3 +99,6 @@ My IR Reciever stopped working randomly after a couple button presses on the rem
 had the exact same issue where the reciever stopped working.
 You might wanna check it out: 
 https://arduino.stackexchange.com/a/13259
+
+
+Feel free to hit me up on twitter if stuff still aint working. I might be able to help a little. The @ is on my GitHub profile.
