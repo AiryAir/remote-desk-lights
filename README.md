@@ -27,8 +27,10 @@ Remote controlled RGB Overhead Desk Lights with Arduino
 
 ### Setup and Notes
 
-IMPORTANT: 
+IMPORTANT:
+
 Setup the IR Remote Library in your Arduino IDE.
+
 Link: https://www.arduino.cc/reference/en/libraries/irremote/
 
 After you've hooked up the circuit as shown in the diagram, go ahead and download the .ino file in this repository.
