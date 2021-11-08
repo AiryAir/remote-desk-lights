@@ -42,22 +42,19 @@ Now you just gotta test it out!
 If you used the exact same code as mine then here's some quick shortcuts on the remote:
 
 0 -> all off
-
-
+----
 1 -> Blue LEDs on at low brightness
 
 2 -> Blue LEDs on at medium brightness
 
 3 -> Blue LEDs on at high brightness
-
-
+---
 4 -> Green LEDs on at low brightness
 
 5 -> Green LEDs on at medium brightness
 
 6 -> Green LEDs on at high brightness
-
-
+---
 7 -> Red LEDs on at low brightness
 
 8 -> Red LEDs on at medium brightness
