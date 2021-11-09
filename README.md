@@ -34,6 +34,7 @@ Setup the IR Remote Library in your Arduino IDE.
 Link: https://www.arduino.cc/reference/en/libraries/irremote/
 
 After you've hooked up the circuit as shown in the diagram, go ahead and download the .ino file in this repository.
+
 Link: https://github.com/AiryAir/remote-desk-lights/blob/main/remote_desklights/remote_desklights.ino
 
 Hook your Arduino up to your computer and upload the code to it.
@@ -84,6 +85,7 @@ Solution:
 
 IR Remotes have different "codes" for each of the button presses. They might vary from remote to remote.
 So it might be possible your remote uses different "codes". 
+
 Keep the circuit as it is but now upload this code to your arduino: 
 https://github.com/AiryAir/IR-Remote-Values/blob/main/remote_val/remote_val.ino
 
