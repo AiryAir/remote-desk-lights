@@ -1,4 +1,4 @@
-#include <IRremote.h>                               //load the IRremote library
+#include <IRremote.h>                              //load the IRremote library
 
 int RECV_PIN = 2;                                  //Set the IRreceiver on pin 2 on the Arduino
 
