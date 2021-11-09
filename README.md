@@ -1,4 +1,4 @@
-# remote-desk-lights
+# RGB-Remote-Desk-Lights
 
 Remote controlled RGB Overhead Desk Lights with Arduino
 
